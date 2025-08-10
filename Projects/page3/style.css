@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+body {
+    background: linear-gradient(154deg, #5b5bd28f 0%, #f3efef 100%);
+    min-height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px
+}
+
+.logo img {
+    height: 37px;
+}
+
+.profile-icon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40px;
+    width: 186px;
+    border-radius: 64px;
+    background-color: white;
+    padding: 10px;
+}
+
+.profile-icon .text {
+    margin-right: 10px;
+}
+
+.text p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1px;
+
+}
+
+.profile-class p {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 0px;
+    color: blue;
+
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.sidebar {
+    width: 208px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.666);
+    border-radius: 30px;
+    padding: 25px;
+    box-shadow: 1px 5px 27px 0px #7c7c7e;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+
+}
+
+.sidebar button {
+    width: 100%;
+    height: 31px;
+    margin: 8px 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #676767;
+    border-radius: 8px;
+    border: none;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.sidebar button i {
+    padding-right: 15px;
+}
+
+.logout button {
+    font-size: 12px;
+    margin-top: 250px;
+}
+
+.sidebar button:hover {
+    background-color: #673DE6;
+    color: white;
+}
+
+
+
+
+.main-area {
+   max-width: 100%;
+    height: 660px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.666);
+    padding: 25px;
+    box-shadow: 1px 5px 27px 0px #7c7c7e;
+
+}
+
+.mathematic,
+.english {
+    height: 210px;
+    width: 950px;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.mathematic {
+    background-color: #E5E9FF;
+}
+
+.english {
+    background: #FFE7D1;
+
+}
+
+.heading {
+    font-weight: 600;
+}
+
+.main-card {
+    display: flex;
+}
+
+
+.text-area {
+    margin-left: 20px;
+    line-height: 8px;
+}
+
+.text-area button {
+    background: transparent;
+    border-radius: 5px;
+    height: 30px;
+    width: 60px;
+    border: 1px solid black;
+}
+
+.text-area p {
+    font-size: 13px;
+}
+
+.data-input {
+    margin-top: 30px;
+}
+
+.data-input input {
+    font-size: 15px;
+}
+
+.extra-space {
+    margin-bottom: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 400px) {
+    body {
+        padding: 10px;
+        overflow-x: hidden;
+        background: white;
+        margin: 10px;
+    }
+
+
+
+    
+
+    .text p {
+        font-size: 14px;
+        line-height: normal;
+    }
+
+
+    
+
+   .sidebar{
+    display: none;
+   }
+
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 15px;
+        border-radius: 15px;
+    }
+
+    .sidebar button {
+        width: 48%;
+        height: 36px;
+        font-size: 14px;
+        margin: 5px 0;
+        justify-content: flex-start;
+    }
+
+    .sidebar button i {
+        padding-right: 10px;
+    }
+
+    .logout {
+        margin-top: 10px;
+        width: 100%;
+        order: 99; 
+    }
+
+    .main {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        
+    }
+
+    .main-area {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+        box-shadow: none;
+    }
+
+    .mathematic, .english {
+        width:auto;
+        height: auto;
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .main-card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .text-area {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .text-area p {
+        font-size: 12px;
+    }
+
+    .text-area button {
+        height: 28px;
+        width: 55px;
+        font-size: 12px;
+    }
+
+    .data-input input {
+        width: 100%;
+        font-size: 14px;
+    }
+
+
+
+    .extra-space {
+    padding-bottom: 80px;
+}
+}

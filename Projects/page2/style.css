@@ -1,0 +1,777 @@
+
+@import url('https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+.background-gradient {
+    position: absolute;
+    background: linear-gradient(277.15deg, #673DE6 -81.86%, #E6FFFF 83.29%);
+
+    width: 100%;
+    height: 334px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+header {
+    padding-bottom: 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+}
+
+nav div img {
+    height: 35px;
+    width: auto;
+    margin-top: 25px;
+    margin-left: 26px;
+}
+
+nav .options {
+    display: flex;
+    gap: 17px;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+.options a i {
+    color: #fff;
+}
+
+.options a button {
+    height: 35px;
+    width: 159px;
+    border: 1px solid black;
+    background: transparent;
+    border-radius: 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, border 0.2s;
+}
+
+.options a button:hover {
+    background: #673de6f1;
+    color: #fff;
+    border: none;
+}
+
+#call {
+    border: none;
+    color: #fff;
+    background: #fe8d1ce6;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+#signup {
+    border: none;
+    color: #fff;
+    background: #6438ea;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+#call:hover,
+#signup:hover {
+    opacity: 1;
+}
+
+.contactus {
+    position: relative;
+    z-index: 2;
+    width: 515px;
+    height: 131px;
+    top: 30px;
+    left: 78px;
+}
+
+.contactus .contact-heading {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100px;
+}
+
+.contactus .contact-paragraph {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+
+.imagess {
+    position: relative;
+    z-index: 3;
+    max-width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-top: -60px;
+    margin-right: 15rem;
+}
+
+.contactinfo {
+    position: absolute;
+    z-index: 2;
+    top: 380px;
+    margin-left: 80px;
+}
+
+.subheadd {
+    font-size: 12px;
+}
+
+.headd {
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.detaildiv {
+    position: absolute;
+    top: 520px;
+    padding-left: 80px;
+}
+
+.form-map {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 80px;
+    gap: 60px;
+}
+
+.headingg h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.mapimg img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.headingg p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.locationnn .headingg {
+    position: absolute;
+    left: 870px;
+    top: 980px;
+}
+
+.contact-container {
+    position: absolute;
+    top: 870px;
+    width: 652px;
+    height: 660px;
+    border-radius: 32px;
+    padding: 40px 30px;
+    margin-left: 80px;
+    background: linear-gradient(277.15deg, #673DE6 -81.86%, #E6FFFF 83.29%);
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.contact-container h1 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 30px;
+    max-width: 540px;
+    line-height: 1.5;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field,
+.textarea-field {
+    border: 1px solid #225dff;
+    border-radius: 12px;
+    padding: 15px 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background: transparent;
+    outline: none;
+}
+
+.textarea-field {
+    height: 180px;
+    resize: none;
+}
+
+.submit-btn {
+    width: 140px;
+    padding: 12px;
+    background-color: #673DE6;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #5a32cc;
+}
+
+
+footer {
+    width: 100%;
+    height: 500px;
+    top: 1632px;
+}
+
+.inner-newsletter {
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(90deg, #8685ce 0%, #FBC7D4 82.0%);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.newsletter .text {
+    width: 352px;
+    height: 42px;
+}
+
+.newsletter .text p {
+    color: #505258;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+}
+
+.text-area {
+    display: flex;
+    align-items: center;
+}
+
+.text-area p {
+    color: #505258;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    padding-right: 20px;
+}
+
+.subscribe-container {
+    display: flex;
+    width: 672px;
+    height: 40px;
+    position: relative;
+}
+
+.subscribe-container input {
+    width: 672px;
+    height: 40px;
+    border-radius: 100px;
+    border: none;
+    padding-left: 1.5rem;
+}
+
+.subscribe-container button {
+    border-radius: 100px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    width: 164px;
+    height: 35px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 2.5px;
+    cursor: pointer;
+}
+
+.main-area {
+    width: 100%;
+    height: 340px;
+    background: #37383C;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 60px;
+}
+
+.heading {
+    color: #fff;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    margin-bottom: 25px;
+}
+
+.data-field {
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.company-name {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 100%;
+    padding-top: 10px;
+}
+
+.company-desc {
+    padding-top: 10px;
+    height: 76px;
+    width: 267px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.various-features {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.various-features a {
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+}
+
+.email,
+.location {
+    width: 254px;
+    height: 38px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.email i,
+.location i {
+    padding-right: 8px;
+    font-size: 19px;
+}
+
+.followUsIcon {
+    font-size: 25px;
+    gap: 25px;
+}
+
+.copyright {
+    width: 100%;
+    height: 60px;
+    background: #22242A;
+    display: flex;
+    align-items: center;
+}
+
+.copyright p {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #fff;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 100%;
+    margin-left: 6rem;
+}
+
+.spacing {
+    height: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    body {
+        padding: 0 8px;
+    }
+
+    .background-gradient {
+        height: 180px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    nav div img {
+        margin-left: 0;
+        margin-top: 10px;
+        height: 28px;
+    }
+
+    nav .options {
+        flex-direction: column;
+        gap: 8px;
+        margin-top: 10px;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .options a button {
+        width: 100%;
+        min-width: unset;
+        font-size: 14px;
+    }
+
+    .contactus {
+        width: 100%;
+        left: 0;
+        top: 10px;
+        height: auto;
+        padding: 0 4px;
+    }
+
+    .contactus .contact-heading {
+        font-size: 28px;
+        line-height: 1.2;
+    }
+
+    .contactus .contact-paragraph {
+        font-size: 11px;
+        line-height: 1.4;
+    }
+
+    .imagess {
+        max-width: 90vw;
+        margin-right: 0;
+        margin-top: -30px;
+    }
+
+    .contactinfo,
+    .detaildiv,
+    .locationnn .headingg,
+    .contact-container {
+        position: static !important;
+        margin-left: 0 !important;
+        top: unset !important;
+        left: unset !important;
+        padding-left: 0 !important;
+    }
+
+    .form-map {
+        flex-direction: column;
+        padding: 20px 0;
+        gap: 30px;
+    }
+
+    .contact-container {
+        width: 100%;
+        height: auto;
+        padding: 20px 10px;
+        margin-left: 0;
+        border-radius: 18px;
+        top: unset;
+    }
+
+    .contact-container h1 {
+        font-size: 22px;
+    }
+
+    .description {
+        font-size: 12px;
+        max-width: 100%;
+    }
+
+    .input-field,
+    .textarea-field {
+        font-size: 14px;
+        padding: 10px 12px;
+    }
+
+    .textarea-field {
+        height: 100px;
+    }
+
+    .submit-btn {
+        width: 100%;
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    footer {
+        height: auto;
+        min-height: 300px;
+    }
+
+    .inner-newsletter {
+        flex-direction: column;
+        height: auto;
+        padding: 16px 0;
+        gap: 10px;
+    }
+
+    .newsletter .text,
+    .text-area {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .subscribe-container {
+        width: 100%;
+        min-width: 0;
+        height: 40px;
+    }
+
+    .subscribe-container input {
+        width: 100%;
+        font-size: 14px;
+        padding-left: 1rem;
+    }
+
+    .subscribe-container button {
+        width: 100px;
+        font-size: 13px;
+        height: 32px;
+        top: 4px;
+    }
+
+    .main-area {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 20px;
+        height: auto;
+        gap: 20px;
+    }
+
+    .heading {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .company-name {
+        font-size: 16px;
+    }
+
+    .company-desc {
+        width: 100%;
+        font-size: 13px;
+        height: auto;
+    }
+
+    .various-features a {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    .email,
+    .location {
+        width: 100%;
+        font-size: 13px;
+        height: auto;
+    }
+
+    .copyright {
+        height: 40px;
+    }
+
+    .copyright p {
+        font-size: 10px;
+        margin-left: 0.5rem;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 450px) {
+
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    * {
+        max-width: 100%;
+    }
+
+    .background-gradient{
+        height: 280px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .logo,
+    .options a {
+        display: none;
+    }
+
+    .options a button {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .contactus .contact-heading {
+        font-size: 24px;
+        padding-top: 15px;
+    }
+
+    .contactus .contact-paragraph {
+        font-size: 10px;
+    }
+
+    .imagess {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .imagess img {
+        display: block;
+        max-width: 216px;
+        height: auto;
+    }
+
+    .contact-container h1 {
+        font-size: 20px;
+    }
+
+    .description {
+        font-size: 11px;
+    }
+
+    .input-field,
+    .textarea-field {
+        font-size: 13px;
+        padding: 8px 10px;
+    }
+
+    .textarea-field {
+        height: 90px;
+    }
+
+    .submit-btn {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .newsletter .text p,
+    .text-area p {
+        font-size: 14px;
+    }
+
+    .subscribe-container input {
+        font-size: 12px;
+        padding-left: 0.8rem;
+    }
+
+    .subscribe-container button {
+        width: 85px;
+        font-size: 12px;
+    }
+
+    .heading {
+        font-size: 14px;
+    }
+
+    .company-name {
+        font-size: 15px;
+    }
+
+    .company-desc {
+        font-size: 12px;
+    }
+
+    .various-features a {
+        font-size: 12px;
+    }
+
+    .email,
+    .location {
+        font-size: 12px;
+    }
+
+    .copyright p {
+        font-size: 9px;
+    }
+
+    .spacing {
+        height: 60px;
+    }
+
+    .mapimg img {
+        height: 280px;
+        width: auto;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .contact-container{
+        margin: 200px;
+    }
+
+    footer .main-area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .detaildiv {
+        padding-top: 25px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
