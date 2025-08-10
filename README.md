@@ -11,9 +11,9 @@ This repo contains links to 5 beautifully crafted web pages, each built with ded
 |----------|--------------|-----------|
 | 1️⃣ | **Classes Page** | [View Page](https://classespagetutstar.netlify.app/) |
 | 2️⃣ | **Contact Us Page** | [View Page](https://contactusssshere.netlify.app/) |
-| 3️⃣ | **Zippy Sable Project** | [View Page](https://zippy-sable-a39cc3.netlify.app/) |
-| 4️⃣ | **Benevolent Cheesecake** | [View Page](https://benevolent-cheesecake-d7e45d.netlify.app/) |
-| 5️⃣ | **Celadon Fairy Project** | [View Page](https://celadon-fairy-3ee720.netlify.app/) |
+| 3️⃣ | **Doubt Page** | [View Page](https://zippy-sable-a39cc3.netlify.app/) |
+| 4️⃣ | **Notification** | [View Page](https://benevolent-cheesecake-d7e45d.netlify.app/) |
+| 5️⃣ | **Subscription** | [View Page](https://celadon-fairy-3ee720.netlify.app/) |
 
 ---
 
